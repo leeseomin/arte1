@@ -10,3 +10,5 @@ cd arte1-main
 
 mkdir s{1..27}
 
+bash main.sh
+
