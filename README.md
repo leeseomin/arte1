@@ -59,13 +59,13 @@ bash main.sh
 
  
  
-### make anmated png
+### make animated png result
 ```
-ffmpeg -framerate 1 -pattern_type glob -i '*.jpg' \
+ffmpeg -framerate 1 -pattern_type glob -i '*.png' \
   -c:v libx264 out.mp4
   
   
-  ffmpeg -i out.mp4 -plays 0  apngout.apng
+ffmpeg -i out.mp4 -plays 0  apngout.apng
   
 ```  
   
