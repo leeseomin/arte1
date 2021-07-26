@@ -25,6 +25,10 @@ sudo apt install graphicsmagick-imagemagick-compat
 sudo apt install imagemagick-6.q16
 
 
+ #  Gmic update filters (follow the link)
+ 
+https://telegra.ph/Gmic-update-filters-07-26
+
 ```
 
 
