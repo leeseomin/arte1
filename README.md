@@ -52,6 +52,13 @@ bash main.sh
 
 ```
 
+###  Input image 
+
+Recommended : artworks, Image taken with a high-resolution mirrorless(DSLR) camera
+
+Not recommended : Image taken with a typical smartphone
+
+
 ###  Results
 
 ![alt text](https://github.com/leeseomin/arte1/blob/main/arles.png)
