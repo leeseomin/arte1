@@ -54,7 +54,7 @@ bash main.sh
 
 ###  Input image 
 
-Recommended : artworks, Image taken with a high-resolution mirrorless(DSLR) camera
+Recommended : classic art
 
 Not recommended : Image taken with a typical smartphone
 
