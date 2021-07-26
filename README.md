@@ -57,6 +57,19 @@ bash main.sh
 ![alt text](https://github.com/leeseomin/arte1/blob/main/arles.png)
 
 
+ 
+ 
+### make anmated png
+```
+ffmpeg -framerate 1 -pattern_type glob -i '*.jpg' \
+  -c:v libx264 out.mp4
+  
+  
+  ffmpeg -i out.mp4 -plays 0  apngout.apng
+  
+```  
+  
+  
 
 ### License
 
