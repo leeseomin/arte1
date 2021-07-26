@@ -54,7 +54,7 @@ bash main.sh
 
 ###  Input image 
 
-Recommended : classic art
+Recommended : classic art, Painting
 
 Not recommended : Image taken with a typical smartphone
 
