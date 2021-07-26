@@ -20,6 +20,10 @@ mkdir s{1..27}
 
 ### Usage
 ```
+
+input images folder : s ,   result folder : s25
+
+
 bash main.sh
 
 ```
