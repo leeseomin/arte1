@@ -1,6 +1,6 @@
 # arte1
 
-### Dependency install on ubuntu 20.04 (우분투 설치 프로그램) 
+### Dependency install on ubuntu 20.04 
 
 
 ```
