@@ -69,7 +69,7 @@ Not recommended : Image taken with a typical smartphone
 ![alt text](https://github.com/leeseomin/arte1/blob/main/arles.png)
 
 
- 
+ <img src="https://github.com/leeseomin/arte1/blob/main/degas.png" width="2500">
  
 ### make animated png result
 ```
