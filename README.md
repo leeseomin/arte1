@@ -65,7 +65,6 @@ Not recommended : Image taken with a typical smartphone
 
 ###  Results
 
-![alt text](https://github.com/leeseomin/arte1/blob/main/degas.png)
 
 ![alt text](https://github.com/leeseomin/arte1/blob/main/arles.png)
 
