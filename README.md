@@ -78,7 +78,7 @@ ffmpeg -framerate 1 -pattern_type glob -i '*.png' \
   
 ffmpeg \
   -i out.mp4 \
-  -crf 10 \
+  -crf 18 \
   -vf "minterpolate=fps=60:mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1" \
   smooth_60fps.mp4  
   
