@@ -76,16 +76,17 @@ Not recommended : Image taken with a typical smartphone
 ffmpeg -framerate 1 -pattern_type glob -i '*.png' \
   -c:v libx264 out.mp4
   
+
 ffmpeg \
   -i out.mp4 \
   -crf 18 \
   -vf "minterpolate=fps=60:mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1" \
-  smooth_60fps.mp4  
+  smooth_60fps.mov 
   
-ffmpeg -i out.mp4 -plays 0  apngout.apng
   
+ffmpeg -i smooth_60fps.mov -pix_fmt yuv420p -crf 18 -vf "pad=ceil(iw/2)*2:ceil(ih/2)*2" smooth_60fps_good.mov
 ```  
-```  
+
   
   
 
