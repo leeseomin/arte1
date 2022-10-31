@@ -1,5 +1,18 @@
 # arte1
 
+
+### Dependency install on m1 mac 
+
+```
+brew install imagemagick
+brew install gmic
+brew install parallel
+
+if error installing :
+xcode-select --install
+
+```
+
 ### Dependency install on ubuntu 20.04 
 
 
