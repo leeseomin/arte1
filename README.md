@@ -6,6 +6,7 @@
 ```
 brew install imagemagick
 brew install gmic
+gmic up   (gmic update)
 brew install parallel
 
 if error installing :
