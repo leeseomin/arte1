@@ -110,6 +110,12 @@ ffmpeg -i smooth_60fps.mov -pix_fmt yuv420p -crf 18 -vf "pad=ceil(iw/2)*2:ceil(i
 ```
 montage *.* -duplicate 8 -geometry +0+0 -tile 3x3  3array.png
 ```
+
+###  5x5  array
+
+```
+montage *.* -duplicate 24 -geometry +0+0 -tile 5x5  3array.png
+```
   
   
 
