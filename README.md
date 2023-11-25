@@ -128,7 +128,7 @@ convert *.* +append combined_image.png
 ``` 
 ### two images merge ㅣ
 ```
-convert *.png -append combined_image.png
+convert *.* -append combined_image.png
 
 ```
 ### License
