@@ -121,9 +121,16 @@ montage *.* -duplicate 8 -geometry +0+0 -tile 3x3  3array.png
 ```
 montage *.* -duplicate 24 -geometry +0+0 -tile 5x5  3array.png
 ```
-  
-  
 
+### two images merge ㅡ 
+```
+convert *.* +append combined_image.png
+``` 
+### two images merge ㅣ
+```
+convert *.png -append combined_image.png
+
+```
 ### License
 
 This repo is made freely available to academic and non-academic entities for non-commercial purposes such as academic research, teaching, scientific publications. Permission is granted to use the arte1 given that you agree to my license terms. Regarding the request for commercial use, please contact me via email (leeseomin@gmail.com)
